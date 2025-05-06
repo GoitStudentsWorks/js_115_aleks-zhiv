@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/js_115_aleks-zhiv/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <script type="module" crossorigin src="/js_115_aleks-zhiv/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_115_aleks-zhiv/assets/vendor-D2MmEr-g.js">
+    <link rel="stylesheet" crossorigin href="/js_115_aleks-zhiv/assets/vendor-DCjPs6-u.css">
+    <link rel="stylesheet" crossorigin href="/js_115_aleks-zhiv/assets/index-DgC81E14.css">
+  </head>
+
+  <body>
+    <header class="header">
+  <div class="container header-cont">
+    <nav class="navigation">
+      <a href="./index.html" class="logo"
+        >lloyd<span class="green-text">jefferson.</span></a
+      >
+      <input
+        class="theme-switcher-checkbox"
+        type="checkbox"
+        id="theme-switcher"
+      />
+      <label for="theme-switcher"></label>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="#about-me">About me</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="#work-together">Contacts</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="open-mob-menu-btn">
+      <svg class="burger-menu-icon" width="32" height="32">
+        <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-burger-btn"></use>
+      </svg>
+    </button>
+  </div>
+
+  <div class="mobile-menu">
+    <div class="mob-menu-head">
+      <a href="./index.html" class="logo"
+        >lloyd<span class="green-text">jefferson.</span></a
+      >
+      <button type="button" class="mob-menu-close-btn">
+        <svg class="mob-menu-close-icon" width="32" height="32">
+          <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-close-menu-btn"></use>
+        </svg>
+      </button>
+    </div>
+    <ul class="mob-menu-nav-list">
+      <li class="mob-menu-nav-list-item">
+        <a class="mob-menu-nav-list-link" href="#about-me">About me</a>
+      </li>
+      <li class="mob-menu-nav-list-item">
+        <a class="mob-menu-nav-list-link" href="#projects">Projects</a>
+      </li>
+      <li class="mob-menu-nav-list-item">
+        <a class="mob-menu-nav-list-link" href="#work-together">Contacts</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+
+    <main>
+      <!-- Loads the specified .html file -->
+      <section>
+  <div class="container hero-cont">
+    <h1 class="hero-title">
+      Hello, i am <span class="green-text">fullstack developer</span>
+    </h1>
+    <picture>
+      <source srcset="/js_115_aleks-zhiv/assets/hero-cont-desc@1x-t64qvvB1.webp 1x, /js_115_aleks-zhiv/assets/hero-cont-desc@2x-DPjIJRbP.webp 2x" media="(min-width: 1280px)" />
+      <img 
+        src="/js_115_aleks-zhiv/assets/hero-cont-desc@1x-t64qvvB1.webp"
+        alt="Lloyd Jefferson on green background"
+        class="hero-img"
+        width="592"
+        height="444"
+        decoding="async" />
+    </picture>
+    <a href="#work-together" class="hero-btn">
+      <svg class="hero-btn-arrow" width="28" height="28">
+        <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-hero-arrow"></use>
+      </svg>
+      order the project
+      <div class="green-box"></div>
+    </a>
+    <p class="hero-text">
+      I work with people all over the world to create
+      <span class="green-text">impressive</span> and
+      <span class="green-text">functional websites</span> that reflect each
+      client’s unique personality.
+    </p>
+  </div>
+  <div class="container hero-social-media">
+    <ul class="hero-social-list">
+      <li class="hero-social-list-item">
+        <a href="https://www.instagram.com/goitclub/" class="hero-social-list-link" target="_blank">
+          Instagram
+        </a>
+      </li>
+      <li class="hero-social-list-item">
+        <a href="https://www.facebook.com/goITclub/" class="hero-social-list-link" target="_blank">
+          Facebook
+        </a>
+      </li>
+      <li class="hero-social-list-item">
+        <a href="https://www.linkedin.com/school/goit-start-your-career-in-it" class="hero-social-list-link"
+          target="_blank">
+          Linkedin
+        </a>
+      </li>
+      <li class="hero-social-list-item">
+        <a href="https://github.com/aleks-zhiv/CodeNova" class="hero-social-list-link" target="_blank">
+          GitHub
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+      <section id="about-me">
+  <div class="container about-me-con">
+    <h2 class="main-title">ABOUT <span class="green-text">ME</span></h2>
+    <div class="profile-section">
+        <div class="about-content">
+            <img src="/js_115_aleks-zhiv/assets/img-about-BvooaTKX.png" alt="Lloyd Jefferson" class="photo"/>
+            <div class="about-bio">
+              <h3 class="title-bio">BIO</h3>
+              <p class="bio-p first">
+                I'm Lloyd Jefferson, a talented programmer specializing in software
+                development. My expertise spans various programming languages and
+                technologies, and I am dedicated to continually enhancing my skills.
+                I thrive on seeking unconventional and creative solutions to
+                problems, leveraging a high level of analytical skills to
+                effectively tackle even the most challenging tasks.
+              </p>
+              <p class="bio-p">
+                Adaptable to both independent and team-oriented work, I collaborate
+                seamlessly with colleagues, exchanging ideas and finding optimal
+                solutions. My professional maturity enables me to navigate
+                challenges and stressful situations with a calm demeanor,
+                maintaining a consistently high quality of work. Committed to
+                self-improvement, I actively engage in studying new technologies and
+                practices to stay current with the latest innovations in the field.
+              </p>
+            </div>
+        </div>
+      </div>
+        <div class="about-edrole">
+            <ul class="about-edrole-list">
+              <li class="about-list-item">
+                <h3 class="title-bio">EDUCATION</h3>
+                <ul class="info-ul">
+                  <li class="info-li">
+                    2018 - 2019 / Frontend Development Diploma, GoIT IT School, New York
+                  </li>
+                  <li class="info-li">
+                    2019 - 2020 / Advanced Web Development Certificate, GoIT IT School,
+                    New York
+                  </li>
+                  <li class="info-li">
+                    2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+                  </li>
+                </ul>
+              </li>
+              <li class="about-list-item">
+                <h3 class="title-bio">ROLE</h3>
+                <ul class="info-ul">
+                  <li class="info-li">Frontend development</li>
+                  <li class="info-li">HeadlessCMS, Wordpress</li>
+                  <li class="info-li">Blender (enjoy)</li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+  </div>
+</section>
+
+      <section>
+  <div>
+    <h2 class="hidden-title">TECHSKILLS</h2>
+    <div class="marquee">
+      <div class="innerLine">
+        <!-- Перший рядок з повним контентом -->
+        <p class="topline">
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>JAVASCRIPT</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>NODE. JS</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT NATIVE</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>HTML/CSS</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>TYPESCRIPT</span>
+        </p>
+        <!-- Другий рядок дублює повністю перший -->
+        <p class="topline">
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>JAVASCRIPT</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>NODE. JS</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT NATIVE</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>HTML/CSS</span>
+          <svg class="green-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>TYPESCRIPT</span>
+        </p>
+      </div>
+    </div>
+    <div class="marquee marquee--tilted">
+      <div class="innerLine">
+        <p class="topline bottom">
+          <span>JAVASCRIPT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>NODE. JS</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT NATIVE</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>HTML/CSS</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>TYPESCRIPT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+        </p>
+        <p class="topline bottom">
+          <span>JAVASCRIPT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>NODE. JS</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>REACT NATIVE</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>HTML/CSS</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+          <span>TYPESCRIPT</span>
+          <svg class="black-dot" width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-dot"></use>
+          </svg>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="projects-section" id="projects">
+  <div class="container">
+    <h2 class="projects-title">
+      <span class="black-text">MY</span>
+      <span class="green-text">PROJECTS</span>
+    </h2>
+
+    <ul class="projects-list">
+      <!-- Проект 1 -->
+      <li class="project-item">
+        <picture class="project-picture">
+          <source
+            srcset="/js_115_aleks-zhiv/assets/wallet-1x-desk-DXiXa2Bz.jpg 1x, /js_115_aleks-zhiv/assets/wallet-2x-desk-s4QKxtJf.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="/js_115_aleks-zhiv/assets/wallet-1x-desk-DXiXa2Bz.jpg"
+            alt="Wallet Webservice"
+            class="project-image"
+          />
+        </picture>
+
+        <div class="project-info">
+          <p class="project-tech">React, JavaScript, Node.js, Git</p>
+
+          <div class="project-header">
+            <h3 class="title">Wallet Webservice</h3>
+            <div class="visit-button-wrapper">
+              <a
+                href="https://github.com/aleks-zhiv/CodeNova.git"
+                target="_blank"
+                class="visit-button"
+              >
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 2 -->
+      <li class="project-item">
+        <picture class="project-picture">
+          <source
+            srcset="/js_115_aleks-zhiv/assets/green-1x-desk-Cqz3e5SV.jpg 1x, /js_115_aleks-zhiv/assets/green-2x-desk-CmxOmhFs.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="/js_115_aleks-zhiv/assets/green-1x-desk-Cqz3e5SV.jpg"
+            alt="Green Harvest"
+            class="project-image"
+          />
+        </picture>
+
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Parcel</p>
+
+          <div class="project-header">
+            <h3 class="title">Green Harvest</h3>
+            <div class="visit-button-wrapper">
+              <a
+                href="https://github.com/aleks-zhiv/CodeNova.git"
+                target="_blank"
+                class="visit-button"
+              >
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 3 -->
+      <li class="project-item">
+        <picture class="project-picture">
+          <source
+            srcset="/js_115_aleks-zhiv/assets/englishg-1x-desk-BEDqcgTb.jpg 1x, /js_115_aleks-zhiv/assets/englishg-2x-desk-XwvWLNWB.jpg 2x"
+            media="(min-width: 1280px)"
+          />
+          <img
+            src="/js_115_aleks-zhiv/assets/englishg-1x-desk-BEDqcgTb.jpg"
+            alt="English Exellence webservice"
+            class="project-image"
+          />
+        </picture>
+
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Vite</p>
+
+          <div class="project-header">
+            <h3 class="title">English Exellence webservice</h3>
+            <div class="visit-button-wrapper">
+              <a
+                href="https://github.com/aleks-zhiv/CodeNova.git"
+                target="_blank"
+                class="visit-button"
+              >
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 4 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/power-1x-desk-DAmrgPx2.jpg 1x, /js_115_aleks-zhiv/assets/power-2x-desk-Cl6o10h-.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/power-1x-desk-DAmrgPx2.jpg" 
+          alt="Power Pulse Webservice" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Vite</p>
+      
+          <div class="project-header">
+            <h3 class="title">Power Pulse Webservice</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 5 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/mimino-1x-desk-DzWO6RWh.jpg 1x, /js_115_aleks-zhiv/assets/mimino-2x-desk-KmFNg1nj.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/mimino-1x-desk-DzWO6RWh.jpg" 
+          alt="Mimino website" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">React, JavaScript, Node.js, Git</p>
+      
+          <div class="project-header">
+            <h3 class="title">Mimino website</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 6 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/vyshyvanka-1x-desk-pf4BLLkh.jpg 1x, /js_115_aleks-zhiv/assets/vyshyvanka-2x-desk-BenjOqtI.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/vyshyvanka-1x-desk-pf4BLLkh.jpg" 
+          alt="Vyshyvanka Vibes Landing Page" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Parcel</p>
+      
+          <div class="project-header">
+            <h3 class="title">Vyshyvanka Vibes Landing Page</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 7 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/chego-1x-desk-CVSySAS6.jpg 1x, /js_115_aleks-zhiv/assets/chego-2x-desk-BHoo2Y4c.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/chego-1x-desk-CVSySAS6.jpg" 
+          alt="Chego Jewelry website" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Vite</p>
+      
+          <div class="project-header">
+            <h3 class="title">Chego Jewelry website</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 8 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/energy-1x-desk-DzWAk3A2.jpg 1x, /js_115_aleks-zhiv/assets/energy-2x-desk-Dh-Fyh2c.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/energy-1x-desk-DzWAk3A2.jpg" 
+          alt="Energy Flow webservice" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">React, JavaScript, Node.js, Git</p>
+      
+          <div class="project-header">
+            <h3 class="title">Energy Flow webservice</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 9 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/fruitbox-1x-desk-f7c2byr9.jpg 1x, /js_115_aleks-zhiv/assets/fruitbox-2x-desk-Bok1M3hb.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/fruitbox-1x-desk-f7c2byr9.jpg" 
+          alt="Fruitbox Online Store" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Parcel</p>
+      
+          <div class="project-header">
+            <h3 class="title">Fruitbox Online Store</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+
+      <!-- Проект 10 -->
+      <li class="project-item proj-hidden">
+        <picture class="project-picture">
+          <source srcset="/js_115_aleks-zhiv/assets/starlight-1x-desk-CRWj3Rmz.jpg 1x, /js_115_aleks-zhiv/assets/starlight-1x-desk-CRWj3Rmz.jpg 2x" media="(min-width: 1280px)" />
+          <img src="/js_115_aleks-zhiv/assets/starlight-1x-desk-CRWj3Rmz.jpg" 
+          alt="Starlight Studio Landing Page" class="project-image" />
+        </picture>
+      
+        <div class="project-info">
+          <p class="project-tech">HTML, CSS, JavaScript, Vite</p>
+      
+          <div class="project-header">
+            <h3 class="title">Starlight Studio Landing Page</h3>
+            <div class="visit-button-wrapper">
+              <a href="https://github.com/aleks-zhiv/CodeNova.git" target="_blank" class="visit-button">
+                Visit
+                <svg class="visit-icon" width="24" height="24">
+                  <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-visit"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <button class="load-more-btn" type="button">Load More</button>
+  </div>
+</section>
+
+      <section class="benefits">
+  <div class="container benefits-container">
+    <h2><span>Benefits</span> of Working With Me</h2>
+    <ul class="benefits-list">
+      <li class="benefit-item">
+        <div class="icon">
+          <svg width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-user-01"></use>
+          </svg>
+        </div>
+        <h3>Expertise</h3>
+        <p>
+          With extensive experience in development, I have a deep understanding
+          of programming and website development.
+        </p>
+      </li>
+
+      <li class="benefit-item">
+        <div class="icon">
+          <svg width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-message-chat-circle"></use>
+          </svg>
+        </div>
+        <h3>Communication</h3>
+        <p>
+          Understanding your needs and wants is my priority and I am always
+          available for discussions and open to corrections.
+        </p>
+      </li>
+
+      <li class="benefit-item">
+        <div class="icon">
+          <svg width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-brush-01"></use>
+          </svg>
+        </div>
+        <h3>Art</h3>
+        <p>
+          Thanks to my creative nature, I am ready to accept challenges and help
+          you bring your ideas to life.
+        </p>
+      </li>
+
+      <li class="benefit-item">
+        <div class="icon">
+          <svg width="24" height="24">
+            <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-hourglass-02"></use>
+          </svg>
+        </div>
+        <h3>Urgent Execution</h3>
+        <p>
+          I understand how important time is to you. Ready to work quickly and
+          efficiently, without reducing the quality of work.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="faq-section">
+  <div class="container faq-container">
+    <h2 class="faq__title">
+      frequently <br />
+      asked<br />
+      <span class="faq__title--color green-text">question</span>
+    </h2>
+    <ul class="accordion-container">
+      <li class="ac open">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What programming languages ​​are most often used in your project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What are the deadlines for the project?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What payment methods do you accept?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            How can I contact you?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            In the field of web development, there are various technologies and
+            programming languages. Typically, this includes a combination of
+            frontend (client side) and backend (server side) languages.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            Do you provide advice or support?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            The terms of project implementation depend to a large extent on a
+            number of factors, such as the scope of the project, its complexity,
+            and the availability of resources. Determining exact deadlines is a
+            difficult task, and it usually occurs during the planning phase of
+            the project.
+          </p>
+        </div>
+      </li>
+      <li class="ac">
+        <h2 class="ac-header">
+          <button type="button" class="ac-trigger">
+            What does the process of developing a software product look like
+            from idea to implementation?
+          </button>
+        </h2>
+        <div class="ac-panel">
+          <p class="ac-text">
+            Payment through credit and debit cards such as Visa, MasterCard,
+            specialized electronic payment systems such as PayPal, as well as
+            payments in cryptocurrencies such as Bitcoin, Ethereum and others.
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <h2 class="title-reviews">reviews</h2>
+    <div class="swiper reviews-swiper">
+      <div class="swiper-wrapper"></div>
+    </div>
+    <div class="container-icon">
+      <button type="button" class="reviews-btn reviews-left-btn">
+        <svg class="icon-arrow-left reviews-arrow" width="24" height="24">
+          <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-arrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="reviews-btn reviews-right-btn">
+        <svg class="icon-arrow-right reviews-arrow" width="24" height="24">
+          <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+      <section class="work-together" id="work-together">
+  <div class="container">
+    <h2 class="work-together-title">
+      let’s <span class="work-together-title-accent">work together</span>
+    </h2>
+    <div class="work-together-flex-cont">
+      <div class="work-together-contacts">
+        <p class="work-together-text">
+          Contact me to transform your ideas into exceptional solutions.
+        </p>
+        <ul class="work-together-contacts-list">
+          <li class="work-together-contacts-item">
+            <a href="tel:+380904567890" id="phone">
+              <svg width="24" height="24" class="work-together-icon">
+                <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#phone"></use>
+              </svg>
+              +38 090 456 78 90</a
+            >
+          </li>
+          <li class="work-together-contacts-item">
+            <a href="mailto:lloydjefferson@gmail.com">
+              <svg width="24" height="24" class="work-together-icon">
+                <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#email"></use>
+              </svg>
+              lloydjefferson@gmail.com</a
+            >
+          </li>
+          <li class="work-together-contacts-item">
+            <a
+              href="https://www.google.com/maps/place/%D0%9D%D1%8C%D1%8E-%D0%99%D0%BE%D1%80%D0%BA,+%D0%A1%D0%A8%D0%90/@40.6966727,-74.3091498,10z/data=!4m15!1m8!3m7!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!2z0J3RjNGOLdCZ0L7RgNC6LCDQodCo0JA!3b1!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2!3m5!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127753!4d-74.0059728!16zL20vMDJfMjg2?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D"
+            >
+              <svg width="24" height="24" class="work-together-icon">
+                <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#location"></use>
+              </svg>
+              USA, New York</a
+            >
+          </li>
+        </ul>
+      </div>
+      <form class="work-together-form">
+        <input
+          class="form-input-email"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email*"
+          required
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+        />
+        <svg width="16" height="16" class="success-filled visually-hidden">
+          <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#success-filled"></use>
+        </svg>
+        <p class="invalid-email visually-hidden">Invalid email, try again</p>
+        <textarea
+          class="form-message"
+          name="message"
+          id="message"
+          placeholder="Message"
+          required
+        ></textarea>
+        <button type="submit" class="work-together-btn">SEND MESSAGE</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<div class="backdrop visually-hidden">
+  <div class="modal">
+    <h3 class="modal-title"></h3>
+    <p class="modal-text"></p>
+    <svg width="24" height="24" class="modal-close">
+      <use href="/js_115_aleks-zhiv/assets/icons-iWerKVYc.svg#modal-close"></use>
+    </svg>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="footer">
+  <div class="footer-container container">
+    <div class="footer-social-container">
+      <a class="footer-logo" href="./index.html"
+        >Lloyd<span class="footer-logo-accent">Jefferson.</span></a
+      >
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Linkedin</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://github.com/aleks-zhiv/CodeNova"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+    <p class="footer-copyright">&copy; Copyright 2025. Made by LloydJefferson</p>
+  </div>
+</footer>
+
+
+  </body>
+</html>
